@@ -1,23 +1,28 @@
 import styles from './card.module.css'
 
-const Card = () => {
+const Card = (props) => {
+  const timeArrived = props.dateArrived.split('-')
+  const arrivalDate = new Date(timeArrived[0], timeArrived[1] - 1, timeArrived[2]).toDateString();
+
+  const timeLeft = props.dateLeft.split('-')
+  const departureDate = new Date(timeLeft[0], timeLeft[1] - 1, timeLeft[2]).toDateString();
+
   return (
     <div className={styles.card}>
       <div>
-        <img src='/images/rome.jpg' alt='place' className={styles.cardImg}/>
+        <img src={props.cardImg} alt='place' className={styles.cardImg}/>
       </div>
       <div>
         <div className={styles.content}>
           <img src='/images/pointer.svg' alt='pointer' className={styles.pointer}/>
-          <p className={styles.countryText}>Italy</p>
-          <a href='https://goo.gl/maps/fN8rzjgsRnZiSe5a8' className={styles.countryLink}>View on Google Maps</a>
+          <p className={styles.countryText}>{props.country}</p>
+          <a href={props.mapsLink} className={styles.countryLink}>View on Google Maps</a>
         </div>
         <div>
-          <h1 className={styles.locationText}>Rome</h1>
-          <h2 className={styles.dates}>12 Jan, 2021 - 24 Jan, 2021</h2>
+          <h1 className={styles.locationText}>{props.city}</h1>
+          <h2 className={styles.dates}>{arrivalDate} - {departureDate}</h2>
           <p className={styles.description}>
-          Rome is the capital city of Italy. It is also the capital of the Lazio region,
-          the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale.
+            {props.description}
           </p>
         </div>
       </div>
