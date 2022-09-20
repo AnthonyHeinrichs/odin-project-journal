@@ -1,11 +1,12 @@
 import styles from './app.module.css'
 import Navbar from './components/navbar'
 import Card from './components/card'
-import travel from './data'
+import Footer from './components/footer'
+import projects from './data'
 
 function App() {
 
-  const cards = travel.map(item => {
+  const cards = projects.map(item => {
     return (
       <Card
         key={item.id}
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div className={styles.card}>
         {cards}
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

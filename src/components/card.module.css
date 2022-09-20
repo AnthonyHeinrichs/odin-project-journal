@@ -3,14 +3,14 @@
 .card {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 36px;
 }
 
 .cardImg {
-  height: 168px;
-  width: 125px;
+  height: 240px;
+  width: 280px;
   border-radius: 5px;
-  object-fit: cover
+  object-fit: cover;
 }
 
 .content {
@@ -25,42 +25,27 @@
   height: 12px;
 }
 
-.countryText {
-  margin: 0;
-  margin-left: 4px;
+.projectTitle {
+  color: #815481;
+  margin-left: 18px;
+  font-size: 36px;
   font-family: Inter, sans-serif;
-  letter-spacing: 0.17em;
+  letter-spacing: 0.05em;
 }
 
-.countryLink {
-  margin-left: 12px;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-  text-decoration-line: underline;
-  color: #918E9B;
-}
-
-.locationText {
-  margin-left: 19px;
-  margin-top: 7px;
+.languages {
+  color: #422842;
+  margin-left: 18px;
   font-family: Inter, sans-serif;
   font-weight: 700;
-  font-size: 25px;
-}
-
-.dates {
-  margin-left: 19px;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-size: 11px;
+  font-size: 18px;
 }
 
 .description {
-  margin-left: 19px;
+  margin-left: 18px;
   font-family: Inter, sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 18px;
   max-width: 326px;
   line-height: 150%
 }
