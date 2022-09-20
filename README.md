@@ -1,3 +1,5 @@
-Anthony's travel journal:
+Odin Project Journal:
 
-I built this application with react so I could document all the different places I have traveled to.
+This site showcases all projects that I have done during my self-study with 'the odin project'.
+
+https://www.theodinproject.com/
