@@ -1,51 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+a {
+  color: #0060B6;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+  text-decoration:none; 
+  cursor:pointer;  
+}
 
 .card {
+  box-shadow: 2px 5px 6px -5px #00000030;
   display: flex;
   justify-content: center;
   margin-top: 36px;
 }
 
-.cardImg {
-  height: 240px;
-  width: 280px;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-.content {
+.cardDetails {
   display: flex;
-  align-items: baseline;
-  margin-top: 10px;
-}
-
-.pointer {
-  margin: 0;
-  margin-left: 16px;
-  height: 12px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width:260px;
+  min-height: 100px;
+  background-color: white;
+  margin-top: -8px;
 }
 
 .projectTitle {
-  color: #815481;
-  margin-left: 18px;
-  font-size: 36px;
-  font-family: Inter, sans-serif;
-  letter-spacing: 0.05em;
+  color: #000000;
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: calc(24px + 0.2vw);
+  font-family: Montserrat, Inter, Roboto, sans-serif;
+}
+
+.cardImg {
+  height: 180px;
+  width: 260px;
+  object-fit: cover;
 }
 
 .languages {
   color: #422842;
-  margin-left: 18px;
-  font-family: Inter, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.description {
-  margin-left: 18px;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  max-width: 326px;
-  line-height: 150%
+  font-family: Roboto, Inter, sans-serif;
+  font-weight: 300;
+  font-size: calc(10px + 0.3vw);
 }

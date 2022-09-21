@@ -16,17 +16,17 @@ function App() {
   })
 
   return (
-    <>
+    <div className={styles.pageContainer}>
       <div>
         <Navbar />
       </div>
       <div className={styles.card}>
         {cards}
       </div>
-      <div>
+      <div className={styles.footer}>
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
