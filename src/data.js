@@ -30,6 +30,14 @@ const projects = [
     title: 'Signup Form',
     languages: 'HTML5, CSS3',
     description: 'Sign-up form, meant to help practice basic form validation.',
+  },
+  {
+    id: 5,
+    cardImg: '/images/tic-tac-toe.png',
+    projectLink: 'https://github.com/AnthonyHeinrichs/odin-tic-tac-toe',
+    title: 'Tic-tac-toe',
+    languages: 'JS,HTML5, CSS3',
+    description: 'Tic-tac-toe game',
   }
 ]
 
