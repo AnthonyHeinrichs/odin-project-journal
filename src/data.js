@@ -36,8 +36,16 @@ const projects = [
     cardImg: '/images/tic-tac-toe.png',
     projectLink: 'https://anthonyheinrichs.github.io/odin-tic-tac-toe/',
     title: 'Tic-tac-toe',
-    languages: 'JS,HTML5, CSS3',
+    languages: 'JS, HTML5, CSS3',
     description: 'Tic-tac-toe game',
+  },
+  {
+    id: 6,
+    cardImg: '/images/weather-app.png',
+    projectLink: 'https://anthonyheinrichs.github.io/odin-weather-app/',
+    title: 'Weather app',
+    languages: 'JS, Webpack, HTML5, CSS3',
+    description: 'A weather app that uses the Opean Weather Map API to get current weather and forecast weather for the next 3 days.',
   }
 ]
 
