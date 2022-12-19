@@ -46,7 +46,16 @@ const projects = [
     title: 'Weather app',
     languages: 'JS, Webpack, HTML5, CSS3',
     description: 'A weather app that uses the Opean Weather Map API to get current weather and forecast weather for the next 3 days.',
-  }
+  },
+  {
+    id: 7,
+    cardImg: '/images/battleship.png',
+    projectLink: 'https://anthonyheinrichs.github.io/odin-battleship/',
+    title: 'Battleship',
+    languages: 'JS, Webpack, HTML5, CSS3',
+    description: 'A battleship game. First one to sink all of the opposing player\'s ships wins!.',
+  },
+
 ]
 
 export default projects
