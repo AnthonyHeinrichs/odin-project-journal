@@ -55,6 +55,15 @@ const projects = [
     languages: 'JS, Webpack, HTML5, CSS3',
     description: 'A battleship game. First one to sink all of the opposing player\'s ships wins!.',
   },
+  {
+    id: 7,
+    cardImg: '/images/message-board.png',
+    projectLink: 'https://odin-message-app.fly.dev/',
+    title: 'Message board',
+    languages: 'Node, Express, MongoDB',
+    description: 'A small message board where you can leave a message, designed from my nostalgia of MSN messenger.',
+  },
+
 
 ]
 
