@@ -57,7 +57,7 @@ const projects = [
   },
   {
     id: 7,
-    cardImg: '/images/message-board.png',
+    cardImg: '/images/message-Board.png',
     projectLink: 'https://odin-message-app.fly.dev/',
     title: 'Message board',
     languages: 'Node, Express, MongoDB',
