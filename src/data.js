@@ -57,9 +57,9 @@ const projects = [
   },
   {
     id: 7,
-    cardImg: '/images/message-Board.png',
+    cardImg: '/images/message-board.png',
     projectLink: 'https://odin-message-app.fly.dev/',
-    title: 'Message board',
+    title: 'Message Board',
     languages: 'Node, Express, MongoDB',
     description: 'A small message board where you can leave a message, designed from my nostalgia of MSN messenger.',
   },
