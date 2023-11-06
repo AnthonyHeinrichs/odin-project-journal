@@ -33,6 +33,14 @@ const projects = [
   },
   {
     id: 5,
+    cardImg: '/images/library.png',
+    projectLink: 'https://anthonyheinrichs.github.io/odin-library/',
+    title: 'My Bookshelf',
+    languages: 'JS, HTML5, CSS3',
+    description: 'library application that has a form to add books to a personal library and sort them by read.',
+  },
+  {
+    id: 6,
     cardImg: '/images/tic-tac-toe.png',
     projectLink: 'https://anthonyheinrichs.github.io/odin-tic-tac-toe/',
     title: 'Tic-tac-toe',
@@ -40,7 +48,7 @@ const projects = [
     description: 'Tic-tac-toe game',
   },
   {
-    id: 6,
+    id: 7,
     cardImg: '/images/weather-app.png',
     projectLink: 'https://anthonyheinrichs.github.io/odin-weather-app/',
     title: 'Weather app',
@@ -48,7 +56,7 @@ const projects = [
     description: 'A weather app that uses the Opean Weather Map API to get current weather and forecast weather for the next 3 days.',
   },
   {
-    id: 7,
+    id: 8,
     cardImg: '/images/battleship.png',
     projectLink: 'https://anthonyheinrichs.github.io/odin-battleship/',
     title: 'Battleship',
@@ -56,15 +64,21 @@ const projects = [
     description: 'A battleship game. First one to sink all of the opposing player\'s ships wins!.',
   },
   {
-    id: 7,
+    id: 9,
+    cardImg: '/images/to-do.png',
+    projectLink: 'https://anthonyheinrichs.github.io/odin-to-do/',
+    title: 'To Do List',
+    languages: 'JS, Webpack, HTML5, CSS3',
+    description: 'A to-do application where you create projects add your tasks to them.',
+  },
+  {
+    id: 10,
     cardImg: '/images/message-board.png',
     projectLink: 'https://odin-message-app.fly.dev/',
     title: 'Message Board',
     languages: 'Node, Express, MongoDB',
     description: 'A small message board where you can leave a message, designed from my nostalgia of MSN messenger.',
-  },
-
-
+  }
 ]
 
 export default projects
