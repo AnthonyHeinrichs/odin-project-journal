@@ -78,6 +78,14 @@ const projects = [
     title: 'Message Board',
     languages: 'Node, Express, MongoDB',
     description: 'A small message board where you can leave a message, designed from my nostalgia of MSN messenger.',
+  },
+  {
+    id: 11,
+    cardImg: '/images/members-only.png',
+    projectLink: 'https://odin-members-only-production-2195.up.railway.app/',
+    title: 'Members Only',
+    languages: 'Node, Express, MongoDB',
+    description: 'A message board application where only those who have signed up with the correct passcode can see who wrote the messages and when.',
   }
 ]
 
