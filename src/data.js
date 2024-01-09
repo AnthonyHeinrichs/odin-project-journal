@@ -86,6 +86,14 @@ const projects = [
     title: 'Members Only',
     languages: 'Node, Express, MongoDB',
     description: 'A message board application where only those who have signed up with the correct passcode can see who wrote the messages and when.',
+  },
+  {
+    id: 12,
+    cardImg: '/images/memory-card.png',
+    projectLink: 'https://odin-memory-card-chi.vercel.app/',
+    title: 'Memory Game',
+    languages: 'React, Node, Express, MongoDB',
+    description: 'A card memory game. Click through cards strategically, testing memory skills to avoid picking the same card twice.',
   }
 ]
 
